@@ -1,5 +1,7 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
@@ -17,36 +19,35 @@
 	],
 	"folder_exclude_patterns":
 	[
-		".svn", 
-    ".hg", 
-    "CVS", 
-    "tmp/class-*", 
-    "tmp/es_*", 
-    "tmp/jshinter*", 
-    "tmp/replace_*", 
-    "tmp/static_compiler*", 
-    "tmp/template_compiler*", 
-    "tmp/tree_merger*", 
-    "tmp/coffee_script*", 
-    "tmp/concat-tmp*", 
-    "tmp/export_tree*", 
-    "tmp/sass_compiler*",
-    ".git",
-    "node_modules",
-    ".sass-cache",
-    ".idea"
+		".svn",
+		".hg",
+		"CVS",
+		"tmp/*",
+		".git",
+		".sass-cache",
+		".idea"
 	],
-	"font_face": "Consolas",
-	"font_size": 19,
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 24,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"line_padding_bottom": 5,
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
 	"match_brackets": true,
 	"match_brackets_angle": true,
+	"overlay_scroll_bars": "enabled",
 	"remember_open_files": false,
 	"rulers":
 	[
@@ -55,6 +56,7 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_size": 2,
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
 	"word_wrap": true

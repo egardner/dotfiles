@@ -1,0 +1,22 @@
+# Basic .gitignore file
+# includes some Jekyll-specific ignores
+# --------------------------------------
+
+# Generic Files
+Gemfile.lock
+pkg/
+*.swp
+.tmp
+*~
+.bundle/
+.DS_Store
+bbin/
+.ruby-version
+.ruby-gemset
+.sass-cache
+tmp/*
+.jekyll-metadata
+
+# Project Specific
+_site
+/build/

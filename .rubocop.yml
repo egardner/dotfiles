@@ -9,7 +9,7 @@ AllCops:
     - 'bin/**/*'
 
 Metrics/LineLength:
-  Max: 90
+  Max: 80
 
 Style/HashSyntax:
   Enabled: false

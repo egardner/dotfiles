@@ -246,6 +246,9 @@ values."
 It is called immediately after `dotspacemacs/init'.  You are free to put almost
 any user code here.  The exception is org related code, which should be placed
 in `dotspacemacs/user-config'."
+  ;; Force emacs shell to use UTF-8 to avoid ruby errors
+  (setenv "LANG" "en_US.UTF-8")
+  (setenv "LC_ALL" "en_US.UTF-8")
   )
 
 (defun dotspacemacs/user-config ()

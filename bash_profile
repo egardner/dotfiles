@@ -1,14 +1,19 @@
-# Add RBENV to environment variables
-eval "$(rbenv init -)"
-
-# Terminal Prompt customization (basic)
+# Colors and prompt
 export PS1="\[\033[1;97m\]\u: \[\033[0;36m\]\W \[\033[1;97m\]\$\[\033[0m\] "
 
-# More advanced terminal customization (see ~/.bash_prompt file)
-# source .bash_prompt
+# RBENV environment variables
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
-# Command aliases
-alias ls="ls -G"
-alias sublime="subl"
-alias htdocs="cd /Applications/MAMP/htdocs"
-alias chrome='open -a "Google Chrome"'
+# echo "source $(brew --prefix nvm)/nvm.sh" 
+
+# # NVM environment variables
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
+# Postgres
+# export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
+# export PGHOST=localhost
+
+# Aliases
+alias src="cd ~/src"

@@ -253,9 +253,9 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
-  (set-terminal-coding-system 'utf-8)
-  (set-keyboard-coding-system 'utf-8)
-  (prefer-coding-system 'utf-8)
+  ;; Force emacs shell to use UTF-8 to avoid ruby errors
+  (setenv "LANG" "en_US.UTF-8")
+  (setenv "LC_ALL" "en_US.UTF-8")
 
   (setq markdown-asymmetric-header t)
   (setq markdown-italic-underscore t)

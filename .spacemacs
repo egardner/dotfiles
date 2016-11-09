@@ -275,6 +275,7 @@ values."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(css-indent-offset 2)
+ '(js-indent-level 2)
  '(js2-basic-offset 2)
  '(js2-mode-show-strict-warnings nil))
 (custom-set-faces

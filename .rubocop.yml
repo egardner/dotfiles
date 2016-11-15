@@ -12,14 +12,18 @@ AllCops:
 Metrics/LineLength:
   Max: 80
 
+Style/Documentation:
+  Enabled: false
+
 Style/HashSyntax:
   Enabled: false
 
-Style/StringLiterals:
-  EnforcedStyle: single_quotes
+Style/RegexpLiteral:
+  EnforcedStyle: slashes
+  AllowInnerSlashes: true
 
 Style/SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: no_space
 
-Style/Documentation:
-  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: single_quotes

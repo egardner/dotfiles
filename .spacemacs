@@ -23,7 +23,10 @@ values."
      markdown
      org
      osx
-     ruby
+     (ruby :variables
+           ruby-version-manager 'rbenv
+           ruby-test-runner 'rspec
+           ruby-enable-enh-ruby-mode t)
      yaml
      (shell :variables
             shell-default-height 30

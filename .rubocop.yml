@@ -18,5 +18,8 @@ Style/HashSyntax:
 Style/StringLiterals:
   EnforcedStyle: single_quotes
 
+Style/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: no_space
+
 Style/Documentation:
   Enabled: false

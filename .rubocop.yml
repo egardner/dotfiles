@@ -7,6 +7,7 @@ AllCops:
     - 'db/seeds.rb'
     - 'client/node_modules/**/*'
     - 'bin/**/*'
+  TargetRubyVersion: 2.3
 
 Metrics/LineLength:
   Max: 80
@@ -15,7 +16,7 @@ Style/HashSyntax:
   Enabled: false
 
 Style/StringLiterals:
-  EnforcedStyle: double_quotes
+  EnforcedStyle: single_quotes
 
 Style/Documentation:
   Enabled: false

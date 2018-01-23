@@ -1,5 +1,0 @@
-" Color scheme
-colorscheme onedark
-
-" Use Rubocop in Syntastic
-let g:syntastic_ruby_checkers = ['rubocop', 'mri']

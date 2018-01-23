@@ -104,7 +104,7 @@ linters:
 
   NestingDepth:
     enabled: true
-    max_depth: 3
+    max_depth: 5
     ignore_parent_selectors: false
 
   PlaceholderInExtend:
@@ -196,7 +196,7 @@ linters:
 
   StringQuotes:
     enabled: true
-    style: single_quotes # or double_quotes
+    style: double_quotes # or double_quotes
 
   TrailingSemicolon:
     enabled: true

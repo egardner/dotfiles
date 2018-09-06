@@ -1,0 +1,22 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.tabCompletion": true,
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "git.autofetch": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.semi": false,
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
+  "prettier.spaceBeforeFunctionParen": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Spacemacs - dark",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line"
+}

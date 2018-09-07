@@ -1,23 +1,26 @@
 // VSCode settings.json
 // Place your settings in this file to overwrite the default settings
 {
-  "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 14,
-  "editor.tabCompletion": true,
-  "workbench.activityBar.visible": true,
-  "workbench.statusBar.visible": true,
-  "git.autofetch": true,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "none",
-  "prettier.semi": false,
-  "prettier.useTabs": false,
-  "prettier.tabWidth": 2,
-  "prettier.spaceBeforeFunctionParen": true,
-  "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
-  "workbench.colorTheme": "Spacemacs - dark",
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.tabSize": 2,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line"
+    "editor.fontFamily": "Source Code Pro",
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Spacemacs - dark",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "git.autofetch": true,
+    "editor.minimap.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "workbench.startupEditor": "newUntitledFile",
+    "files.associations": {
+        "*.vue": "vue"
+    },
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.showTabs": false,
+    "editor.fontSize": 13,
+    "workbench.activityBar.visible": false
 }
